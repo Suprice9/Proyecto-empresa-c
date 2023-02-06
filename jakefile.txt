@@ -1,0 +1,9 @@
+var nombre ="Wilmer Villar";
+
+var edad = 21;
+
+var nombreYedad = nombre + " " + edad;
+
+document.getElementById(nombreYedad);
+
+alert("Hola mundo");

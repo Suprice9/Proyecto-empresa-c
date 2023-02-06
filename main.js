@@ -1,7 +1,12 @@
-var nombre ="Wilmer Villar";
+function obtenerdatos(){
 
-var edad = 21;
+var nombre = document.getElementById("nombre").value;
 
-var nombreYedad = nombre + " " + edad;
+var edad = parseFloat (document.getElementById("edad").value);
 
-document.write(nombreYedad);
+document.Registro.nombreObtenido.value = nombre;
+
+document.Registro.edadObtenida.value = edad;
+
+
+}
